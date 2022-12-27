@@ -590,9 +590,9 @@ margin-top: 40px;
         left: -8px;
     }
     .releas {
-        left: 53.71%;
-        top: 500px;
-        height: 30px;
+        margin-right: -230px;
+        margin-top: -46px;
+        left: 205px;
     }
     .keyboard {
         width: 400px;

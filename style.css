@@ -1,0 +1,725 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    overflow-x: hidden;
+}
+.main {
+    width: 1440px;
+    overflow-x: hidden;
+}
+header {
+    height: 196px;
+    width: 1440px;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo {
+    height: 40px;
+    width: 40px;
+    margin-left: 165px;
+    margin-top: 64px;
+    margin-right: 895px;
+}
+.header {
+    height: 58px;
+    width: 175px;
+    border-radius: 8px;
+    background: #E8EFF2;
+    margin-top: 55px;
+    margin-right: 165px;
+    cursor: pointer;
+}
+.Pre {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+text-transform: uppercase;
+color: #162542;
+margin-block-start: 0em;
+margin-block-end: 0em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+margin-top: 16px;
+margin-left: 26px;
+}
+.header:hover {
+    background: #162542;
+}
+.header:hover .Pre {
+    color: #FFFFFF;
+}
+.first-bg {
+    width: 1440px;
+    height: 435px;
+}
+.master {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 900;
+font-size: 56px;
+line-height: 56px;
+text-transform: uppercase;
+color: #162542;
+margin-top: 40px;
+margin-left: 165px;
+}
+.keyboard {
+    width: 500px;
+    border-radius: 20px;
+    justify-self: end;
+    margin-left: 285px;
+    position: relative;
+    top: -365px;
+    left: 520px;
+}
+.gray {
+position: absolute;
+height: 240px;
+width: 255px;
+left: 1305px;
+top: 196px;
+border-radius: 20px 0px 0px 20px ;
+background: #E8EFF2;
+margin-left: 20px;
+}
+.long {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+color: #7B8BAD;
+width: 445px;
+margin-block-start: 0em;
+margin-block-end: 0em;
+margin-left: 165px;
+}
+.orange {
+    height: 58px;
+    width: 175px;
+    border-radius: 8px;    
+    background: #F16718;
+    margin-top: 40px;
+    margin-left: 165px;
+}
+.grid1 {
+    width:445px;
+    height: 400px;
+    display: flex;
+}
+.secondpre {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-block-start: 0em;
+margin-block-end: 0em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+margin-top: 16px;
+margin-left: 26px;
+position: relative;
+top: 16px;
+}
+.orange:hover {
+background: #FF9B62;
+}
+.releas {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+text-transform: uppercase;
+color: #7B8BAD;
+position: absolute;
+top: 520px;
+left: 380px;
+bottom: 0;
+}
+.sec-bg {
+    display: flex;
+}
+.gary2 {
+position: absolute;
+width: 255px;
+height: 236px;
+left: -120px;
+top: 895px;
+background: #E8EFF2;
+border-radius: 20px;
+} 
+.phoneandkey {
+    opacity: 0.20;
+    height: 460px;
+    border-radius: 20px;
+    margin-left: 0px;
+}
+.filter {
+    width: 244px;
+    height: 460px;
+    border-radius: 20px;
+    background: url( ./typemaster-pre-launch-landing-page/starter-code/assets/desktop/image-phone-and-keyboard.jpg);
+    background-color: #F16718;
+    background-blend-mode: multiply;
+    opacity: 0.75;
+    background-size: cover;
+    filter: contrast(145%);
+    margin-left: 165px;
+}
+.glasskey {
+    height: 460px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+.notkey {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+text-transform: uppercase;
+color: #162542;
+width: 30px;
+margin-left: 170px;
+margin-top: 100px;
+}
+.notglass {
+width: 255px;
+height: 130px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #7B8BAD;
+margin-top: 244px;
+position: relative;
+left: -30px;
+}
+.third-bg {
+    height: 640px;
+    display: flex;
+}
+.pcdiv {
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 168px;
+    margin-left: 165px;
+}
+.pcheader {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+color: #162542;
+width: 50px;
+margin-left: 165px;
+margin-top: 48px;
+}
+.pccard {
+    width: 457px;
+    height: 640px;
+    margin: 0;
+    display: inline-block;
+}
+.pcparagraph {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #7B8BAD;
+width: 255px;
+margin-left: 165px;
+margin-top: 10px;
+}
+.blutcard {
+    width: 285px;
+    height: 640px;
+    margin: 0;
+    display: inline-block;
+}
+.blutdiv {
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 168px;
+}
+.blutheader {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+color: #162542;
+margin-top: 48px;
+}
+.blutpar {
+width: 255px;
+height: 130px;
+left: 450px;
+top: 1547px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #7B8BAD;
+}
+.batterycard {
+    width: 285px;
+    height: 640px;
+    margin: 0;
+    display: inline-block;
+}
+.batterydiv {
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 168px;
+}
+.batteryheader {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+color: #162542;
+margin-top: 48px;
+width: 250px;
+}
+.batterypar {
+    width: 255px;
+height: 130px;
+left: 450px;
+top: 1547px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #7B8BAD;
+}
+.lightcard {
+    width: 285px;
+    height: 640px;
+    margin: 0;
+    display: inline-block;
+}
+.lightdiv {
+    width: 65px;
+    height: 65px;
+    background-color: #F16718;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 168px;
+}
+.lightheader {
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+color: #162542;
+margin-top: 48px;
+width: 210px;
+}
+.lightpar {
+    width: 255px;
+    height: 130px;
+    left: 450px;
+    top: 1547px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+.last {
+    width: 272px;
+    margin-left: 570px;
+    margin-bottom: 39px;
+}
+.ultra {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+color: #7B8BAD;
+}
+.theend {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #7B8BAD;
+}
+@media screen and (max-width: 768px)  {
+    body {
+        max-width: 768px;
+        overflow-x: hidden;
+    }
+    .main {
+        max-width: 768px;
+    }
+    header {
+        height: 135px;
+        max-width: 768px;
+        display: inline-flex;
+    }
+    img.logo {
+        position: relative;
+        left: 39px;
+        margin-right: 474px;
+        margin-top: 40px;
+    }
+    .header {
+        margin-top: 40px;
+        margin-right: 40px;
+        min-width: 175px;
+    }
+    .first-bg {
+        max-width: 768px;
+        height: 390px;
+    }
+    .master {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 48px;
+margin-left: 40px;
+    }
+    .long {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+width: 339px;
+height: 78px;
+margin-left: 40px;
+    }
+    .orange {
+        margin-left: 40px;
+    }
+    .releas {
+        top: 440px;
+        left: 250px;
+    }
+    .gray {
+        width: 0;
+        height: 0;
+        display: none;
+    }
+    .keyboard {
+        content: url(./typemaster-pre-launch-landing-page/starter-code/assets/tablet/image-keyboard.jpg);
+        top: -350px;
+        left: 150px;
+        width: 450px;
+        overflow: hidden;
+    }
+    .gary2 {
+        display: none;
+    }
+    .filter {
+        margin-left: 40px;
+        height: 360px;
+    }
+    .sec-bg {
+        max-width: 768px;
+        height: 540px;
+        flex-wrap: wrap;
+        display: inline-flex;
+    }
+    .glasskey {
+        height: 360px;
+        width: 400px;
+    }
+    .notkey {
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+display: inline;
+margin-left: 44px;
+margin-top: 40px;
+    }
+    .notglass {
+        width: 398px;
+        height: 78px;
+        display: inline;
+        margin-top: 60px;
+        left: 250px;
+    }
+    .third-bg {
+        max-width: 768px;
+        flex-wrap: wrap;
+        display: inline-flex;
+    }
+    .pccard {
+        width: 401px;
+        height: 500px;
+    }
+.pcdiv  {
+    margin-top: 140px;
+    margin-left: 40px;
+}
+.pcheader {
+    margin-left: 40px;
+}
+.pcparagraph {
+    margin-left: 40px;
+    width: 281px;
+}
+.blutcard {
+    height: 500px;
+}
+.blutdiv {
+    margin-top: 141px;
+}
+.blutpar {
+    width: 281px;
+}
+.batterycard {
+    width: 401px;
+    height: 500px;
+}
+.batterydiv {
+    margin-top: 0;
+    margin-left: 40px;
+}
+.batteryheader {
+    margin-left: 40px;
+}
+.batterypar {
+    margin-left: 40px;
+    width: 281px;
+}
+.lightcard {
+    height: 450px;
+}
+.lightdiv {
+    margin-top:  0;
+}
+.lightpar {
+    width: 281px;
+}
+.last {
+    
+    margin-left: 247px;
+    margin-top: 289px;
+}
+}
+ @media screen and (max-width: 375px ){
+    header {
+        max-width: 375px;
+        height: 135px;
+    }
+    body {
+        max-width: 375px;
+    }
+    .main {
+      max-width: 375px;
+    }
+    .header {
+        width: 150px;
+        height: 48px;
+        margin-right: 29px;
+        margin-top: 23px;
+    }
+    img.logo {
+        margin-right: 135px;
+        margin-top: 27px;
+    }
+    .Pre {
+        margin-top: 13px;
+    }
+    .first-bg {
+        height: 720px;
+        width: 375px;
+    }
+    .master {
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-left: 24px;
+    }
+    .long {
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+    .orange {
+        width: 150px;
+        height: 48px;
+        margin-left: 24px;
+    }
+    .secondpre {
+        top: 12px;
+        left: -8px;
+    }
+    .releas {
+        left: 53.71%;
+        top: 500px;
+        height: 30px;
+    }
+    .keyboard {
+        width: 400px;
+        left: -260px;
+        top: 50px;
+    }
+    .sec-bg {
+        max-width: 375px;
+        height: 505px;
+        flex-wrap: wrap;
+    }
+    .filter {
+        height: 200px;
+        background-image: url(./typemaster-pre-launch-landing-page/starter-code/assets/mobile/image-phone-and-keyboard.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        right: 170px;
+    }
+    .glasskey {
+        height: 200px;
+        width: 220px;
+        margin-left: 20px;
+        position: relative;
+        left: 110px;
+        top: -200px;
+    }
+    .notkey {
+        width: 255px;
+        position: relative;
+        bottom: 130px;
+        margin-top: 0;
+        margin-left: 55px;
+        margin-right: 60px;
+        display: flex;
+        text-align: center;
+    }
+    .notglass {
+        width: 327px;
+        display: flex;
+        text-align: center;
+        position: relative;
+        bottom: 160px;
+        left: 13px;
+    }
+    .third-bg {
+        display: flex;
+        max-width: 375px;
+        flex-wrap: wrap;
+    }
+    .pccard {
+        height: 420px;
+    }
+    .pcdiv {
+        margin-left: 155px;
+    }
+    .pcheader {
+        margin-left: 120px;
+        text-align: center;
+        display: flex;
+    }
+    .pcparagraph {
+        margin-left: 24px;
+        display: flex;
+        text-align: center;
+        width: 327px;
+    }
+    .blutcard {
+        margin-left: 24px;
+        height: 420px;
+    }
+    .blutdiv {
+       margin-top: 64px;
+       margin-left: 131px;
+    }
+    .blutheader {
+        margin-left: 70px;
+        text-align: center;
+        display: flex;
+    }
+    .blutpar {
+        display: flex;
+        text-align: center;
+        width: 327px;
+    }
+    .batterycard{
+        height: 300px;
+    }
+    .batterydiv {
+        margin-left: 155px;
+    }
+    .batteryheader {
+        margin-left: 65px;
+        text-align: center;
+        display: flex;
+    }
+    .batterypar {
+        margin-left: 24px;
+        display: flex;
+        text-align: center;
+        width: 327px;
+    }
+    .lightcard {
+        margin-left: 24px;
+        height: 420px;
+    }
+    .lightdiv {
+        margin-top: 64px;
+        margin-left: 131px;
+    }
+    .lightheader {
+        margin-left: 70px;
+        text-align: center;
+        display: flex;
+    }
+    .lightpar {
+        display: flex;
+        text-align: center;
+        width: 327px;
+    }
+    .last {
+        margin-left: 51px;
+        margin-top: 931px;
+        display: inline-block;
+    }
+    .main {
+        max-width: 375px;
+        display: inline-block;
+    }
+ }
